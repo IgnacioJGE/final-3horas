@@ -2,7 +2,7 @@ import {GraphQLError} from "graphql"
 import { Contacto } from "../types.ts"
 import { getCapital, getlatitudelongitude, validatePhone,gethora } from "../apigetters.ts"
 import { Modelocontacto } from "../db/contactos.ts"
-type latlon={
+export type latlon={
     longitude:string,
     latitude:string
 }
