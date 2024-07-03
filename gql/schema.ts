@@ -14,6 +14,6 @@ type Query{
 type Mutation{
     addContact(Nombre:String!,apellidos:String!,phone:String!):Contacto!
     deleteContact(id:ID!):Boolean!
-    updateContact(ud:ID!,Nombre:String,phone:String):Contacto!
+    updateContact(id:ID!,Nombre:String,phone:String,apellidos:String):Contacto!
 }
 `;
